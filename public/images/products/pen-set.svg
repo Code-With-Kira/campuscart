@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-label="pen-set">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#edf4df"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="340" height="340" fill="url(#bg)"/><circle cx="278.8" cy="47.6" r="98.6" fill="#003300" opacity=".075"/><circle cx="51.0" cy="275.40000000000003" r="68.0" fill="#f9dc07" opacity=".19"/>
+ <g transform="rotate(-14 170 170)" filter="url(#shadow)"><rect x="91" y="75" width="25" height="205" rx="10" fill="#0f7651"/><rect x="125" y="65" width="25" height="213" rx="10" fill="#f2b953"/><rect x="159" y="82" width="25" height="193" rx="10" fill="#e29b82"/><rect x="193" y="71" width="25" height="207" rx="10" fill="#5b8eae"/><rect x="227" y="81" width="25" height="198" rx="10" fill="#8974a5"/><path d="M91 122H116 M125 112H150 M159 129H184 M193 118H218 M227 128H252" stroke="#fff" stroke-width="5"/></g>
+ </svg>

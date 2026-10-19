@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="320" viewBox="0 0 540 320" role="img" aria-label="Tech Accessories">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2efeb"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="540" height="320" fill="url(#bg)"/><circle cx="442.79999999999995" cy="44.800000000000004" r="92.8" fill="#003300" opacity=".075"/><circle cx="81.0" cy="259.20000000000005" r="64.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><rect x="131" y="79" width="284" height="151" rx="15" fill="#214a40"/><rect x="146" y="94" width="254" height="120" rx="6" fill="#bfdcce"/><path d="M124 225H422L442 247H105Z" fill="#759f8b"/><circle cx="271" cy="149" r="28" fill="#f9dc07" opacity=".8"/></g>
+ </svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="320" viewBox="0 0 540 320" role="img" aria-label="Campus Merchandise">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3d8"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="540" height="320" fill="url(#bg)"/><circle cx="442.79999999999995" cy="44.800000000000004" r="92.8" fill="#003300" opacity=".075"/><circle cx="81.0" cy="259.20000000000005" r="64.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><path d="M195 114H343L335 275H203Z" fill="#d8bd91"/><path d="M235 121V85a35 35 0 0 1 68 0v36" fill="none" stroke="#b1966b" stroke-width="11"/><circle cx="271" cy="196" r="34" fill="#145337"/><path d="M254 195H287" stroke="#f9dc07" stroke-width="8"/></g>
+ </svg>

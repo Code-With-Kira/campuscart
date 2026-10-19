@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-label="tumbler">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4efdd"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="340" height="340" fill="url(#bg)"/><circle cx="278.8" cy="47.6" r="98.6" fill="#003300" opacity=".075"/><circle cx="51.0" cy="275.40000000000003" r="68.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><rect x="110" y="82" width="126" height="205" rx="27" fill="#0e573d"/><rect x="98" y="73" width="150" height="27" rx="13" fill="#e7e5c1"/><rect x="157" y="43" width="24" height="41" rx="8" fill="#c7cbae"/><circle cx="174" cy="188" r="37" fill="#e4efda"/><path d="M159 189L169 199L191 175" stroke="#0e573d" fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></g>
+ </svg>

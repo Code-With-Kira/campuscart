@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* CSU-inspired colors: design inspiration, not an official CSU endorsement. */
+@theme {
+  --color-campus-emerald: #003300;
+  --color-campus-green: #009900;
+  --color-campus-gold: #f9dc07;
+  --color-campus-orange: #ff9900;
+  --color-campus-sage: #f3f8f0;
+  --color-campus-ink: #243027;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #ffffff;
+  color: #243027;
+  font-family: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Visible navigation feedback for keyboard users. */
+:where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid #f9dc07;
+  outline-offset: 3px;
+}
+
+.cc-container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+@media (min-width: 640px) {
+  .cc-container { padding-inline: 24px; }
+}
+@media (min-width: 1024px) {
+  .cc-container { padding-inline: 32px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

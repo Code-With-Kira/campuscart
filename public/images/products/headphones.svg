@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-label="headphones">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e4efeb"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="340" height="340" fill="url(#bg)"/><circle cx="278.8" cy="47.6" r="98.6" fill="#003300" opacity=".075"/><circle cx="51.0" cy="275.40000000000003" r="68.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><path d="M88 197V151a82 82 0 0 1 164 0v46" fill="none" stroke="#174a39" stroke-width="28" stroke-linecap="round"/><path d="M100 189V141a70 70 0 0 1 140 0v48" fill="none" stroke="#f9dc07" stroke-width="9"/><rect x="64" y="166" width="54" height="101" rx="22" fill="#184735"/><rect x="222" y="166" width="54" height="101" rx="22" fill="#184735"/><rect x="80" y="179" width="23" height="72" rx="10" fill="#497e66"/><rect x="237" y="179" width="23" height="72" rx="10" fill="#497e66"/></g>
+ </svg>

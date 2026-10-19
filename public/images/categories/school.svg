@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="320" viewBox="0 0 540 320" role="img" aria-label="School Supplies">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7f3e6"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="540" height="320" fill="url(#bg)"/><circle cx="442.79999999999995" cy="44.800000000000004" r="92.8" fill="#003300" opacity=".075"/><circle cx="81.0" cy="259.20000000000005" r="64.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><rect x="162" y="57" width="133" height="219" rx="12" fill="#174b36" transform="rotate(-11 225 165)"/><rect x="184" y="67" width="133" height="215" rx="12" fill="#fff5d5" transform="rotate(7 250 166)"/><path d="M205 127H302M205 153H302M205 179H302" stroke="#a7c3ae" stroke-width="4"/></g>
+ </svg>

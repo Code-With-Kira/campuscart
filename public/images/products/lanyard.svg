@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-label="lanyard">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f0f6ed"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="340" height="340" fill="url(#bg)"/><circle cx="278.8" cy="47.6" r="98.6" fill="#003300" opacity=".075"/><circle cx="51.0" cy="275.40000000000003" r="68.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><path d="M123 62Q165 33 213 68L190 196H143Z" stroke="#1a674e" stroke-width="19" fill="none" stroke-linejoin="round"/><path d="M151 190L171 230L190 190" stroke="#f9dc07" stroke-width="10" fill="none"/><rect x="127" y="212" width="90" height="92" rx="11" fill="#f1f3e8" stroke="#73977f" stroke-width="6"/><rect x="144" y="230" width="55" height="19" rx="4" fill="#bed4c1"/><path d="M145 260H198 M145 273H189" stroke="#a7b9aa" stroke-width="5"/></g>
+ </svg>

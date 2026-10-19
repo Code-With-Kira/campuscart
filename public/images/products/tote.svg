@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-label="tote">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4edde"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="340" height="340" fill="url(#bg)"/><circle cx="278.8" cy="47.6" r="98.6" fill="#003300" opacity=".075"/><circle cx="51.0" cy="275.40000000000003" r="68.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)"><path d="M94 125H247L235 280H108Z" fill="#dfc9a9" stroke="#baa17f" stroke-width="3"/><path d="M132 131V103a38 38 0 0 1 76 0v28" fill="none" stroke="#ab8962" stroke-width="13"/><circle cx="170" cy="204" r="33" fill="#164a34"/><path d="M152 204H188 M170 186V222" stroke="#f9dc07" stroke-width="6" stroke-linecap="round"/></g>
+ </svg>

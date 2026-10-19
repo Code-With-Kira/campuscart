@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-label="usb-drive">
+ <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f0f6ed"/><stop offset="1" stop-color="#ffffff"/></linearGradient><filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#0b3921" flood-opacity=".13"/></filter></defs>
+ <rect width="340" height="340" fill="url(#bg)"/><circle cx="278.8" cy="47.6" r="98.6" fill="#003300" opacity=".075"/><circle cx="51.0" cy="275.40000000000003" r="68.0" fill="#f9dc07" opacity=".19"/>
+ <g filter="url(#shadow)" transform="rotate(-22 170 170)"><rect x="93" y="110" width="176" height="89" rx="20" fill="#0b4530"/><rect x="73" y="131" width="46" height="48" rx="6" fill="#c2cbd0"/><rect x="76" y="135" width="22" height="18" rx="2" fill="#85989a"/><rect x="76" y="158" width="22" height="18" rx="2" fill="#85989a"/><circle cx="238" cy="154" r="9" fill="#f9dc07"/><text x="180" y="166" font-family="Arial" font-size="22" font-weight="bold" fill="#e4f3df" text-anchor="middle">32GB</text></g>
+ </svg>
