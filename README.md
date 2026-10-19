@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CampusCart — Completed Frontend / Backend Team Handoff
 
 This is the **finished Stage 8 CampusCart frontend** for ITE 18, prepared for integration. It uses **Nuxt 4, Vue 3, TypeScript, Pinia, and Tailwind CSS 4** with the approved CSU-inspired UI. This handoff does **not** add a new development stage or implement a real backend.
@@ -46,3 +47,6 @@ The backend team is responsible for PostgreSQL data persistence, security, mock/
 ## Media and branding handoff (frontend enhancement)
 
 The completed interface remains unchanged by default. For optional product-gallery URLs and category images, update the backend response contract described in [`docs/MEDIA_BRANDING_BACKEND_CONTRACT.md`](docs/MEDIA_BRANDING_BACKEND_CONTRACT.md). Store logo, favicon, hero artwork and shared display copy are centralized in `app/config/storefront.ts`. The local SVG media map stays as an offline fallback; no image database columns, upload endpoints or backend sample data were added. See [`docs/FRONTEND_MEDIA_BRANDING_CHANGELOG.md`](docs/FRONTEND_MEDIA_BRANDING_CHANGELOG.md) and test with `node --experimental-strip-types scripts/verify-media-handoff.mjs`.
+=======
+# campuscart
+>>>>>>> origin/main
