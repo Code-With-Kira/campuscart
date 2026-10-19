@@ -1,52 +1,157 @@
-<<<<<<< HEAD
-# CampusCart — Completed Frontend / Backend Team Handoff
+# 🛒 CampusCart
 
-This is the **finished Stage 8 CampusCart frontend** for ITE 18, prepared for integration. It uses **Nuxt 4, Vue 3, TypeScript, Pinia, and Tailwind CSS 4** with the approved CSU-inspired UI. This handoff does **not** add a new development stage or implement a real backend.
+### Your Campus Essentials, All in One Place
 
-**Start here:**
+**CampusCart** is a modern, responsive, campus-inspired e-commerce web application developed as an academic project for **ITE 18**.
 
-0. `FINAL_HANDOFF_CHECKLIST.md` — final frontend-to-backend transfer and receiving-team sign-off checklist.
-1. `docs/HANDOFF_CHANGELOG.md` — exactly what changed during this focused cleanup.
-2. `docs/HANDOFF_API_CONTRACT.md` — existing API paths, schemas and backend obligations.
-3. `docs/HANDOFF_BACKEND_CHECKLIST.md` — tasks and decisions for the receiving team.
-4. `docs/HANDOFF_VERIFICATION.md` — verification results, caveats and repeatable checks.
-5. `.env.example` — public environment configuration (no secrets).
+Designed with students in mind, CampusCart provides a convenient platform for browsing school supplies, technology accessories, and campus merchandise through an intuitive shopping experience.
 
-Existing application files, Nuxt mock routes, SVG assets and prior Stage 2–8 documentation are preserved. **The in-process API is a temporary simulation, not a production service or database.** Mock sessions, purchases and inventory updates are not persistent.
+The application features a customer-facing storefront, shopping cart, checkout interface, order management, and an administrative dashboard.
 
-## Setup (Windows PowerShell)
+Its frontend is built using modern web technologies and organized for future backend and database integration.
 
-Merge this package into the working, already-tested CampusCart Git repository, preserving `.git`, its installed dependencies and its existing `package-lock.json` (the ZIP does not contain these). If starting from the ZIP alone, install dependencies first:
+> **Project Status:** Frontend development completed. Backend and database integration are pending.
+>
+> **Disclaimer:** CampusCart is an independent academic demonstration project inspired by campus life and Caraga State University's visual identity. It is not an official university store. Transactions and payments are currently simulated.
 
-```powershell
-npm install --include=dev
-npx nuxt typecheck
-npm run build
+---
+
+## 🚀 Features
+
+### Customer Features
+- **Responsive Homepage** — Modern storefront featuring product categories, featured products, and new arrivals.
+- **Product Catalog** — Browse products with search, filtering, sorting, and pagination.
+- **Product Details** — View product descriptions, pricing, availability, and images.
+- **Shopping Cart** — Add, update, and remove products using Pinia state management.
+- **User Authentication Interface** — Registration, login, and customer account management.
+- **Customer Profile** — View account information and manage saved addresses.
+- **Checkout System** — Simulated order placement with campus pickup and Cash on Pickup.
+- **Order Management** — View order history, order details, and order statuses.
+
+### Administrator Features
+- Administrative dashboard
+- Product management interface
+- Category management interface
+- Order monitoring and status management
+- Inventory monitoring
+- Payment record monitoring
+
+### Frontend Architecture
+- Responsive design for desktop, tablet, and mobile
+- Reusable Vue components
+- TypeScript-based data models
+- Centralized API service modules
+- Configurable branding and store information
+- Support for product image galleries and fallback images
+- Form validation and error handling
+- Backend integration documentation
+
+---
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| **Nuxt 4** | Vue application framework and routing |
+| **Vue 3** | Component-based user interfaces |
+| **TypeScript** | Type-safe application development |
+| **Pinia** | Frontend state management |
+| **Tailwind CSS 4** | Responsive styling and design |
+| **Nitro / Nuxt Server API** | Temporary mock API endpoints |
+| **Git & GitHub** | Version control and collaboration |
+
+---
+
+## 📂 Project Structure
+
+```text
+campuscart/
+├── app/
+│   ├── components/       # Reusable UI components
+│   ├── config/           # Storefront and branding configuration
+│   ├── pages/            # Customer and administrator pages
+│   ├── services/         # API communication
+│   ├── stores/           # Pinia state management
+│   ├── types/            # TypeScript data models
+│   └── utils/            # Shared utilities
+├── server/
+│   └── api/v1/           # Temporary mock API endpoints
+├── public/               # Images, icons, and static assets
+├── docs/                 # Project and backend handoff documentation
+├── scripts/              # Verification scripts
+├── nuxt.config.ts
+├── package.json
+├── .env.example
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (a version supported by the project's `package.json`)
+- npm
+- Git
+- Visual Studio Code or another code editor
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Code-With-Kira/campuscart.git
+cd campuscart
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file using `.env.example` as the reference.
+
+The default local configuration uses the existing mock API:
+
+```dotenv
+NUXT_PUBLIC_API_BASE=/api/v1
+NUXT_PUBLIC_ENABLE_DEMO_PREVIEW=false
+```
+
+The API base URL can be updated once the backend team's services are ready.
+
+### 4. Start the Development Server
+
+```bash
 npm run dev
 ```
 
-By default, the frontend continues to use the existing mock API at `/api/v1`; no new dataset or backend is required to view the UI. To point it at an **agreed compatible backend**, set in your uncommitted `.env`:
+Open your browser and visit:
 
-```dotenv
-NUXT_PUBLIC_API_BASE=http://localhost:4000/api/v1
+**http://localhost:3000**
+
+### 5. Build for Production
+
+```bash
+npm run build
 ```
 
-The example port is not a claim that a real backend exists. Coordinate cookie-based authentication, same-origin proxy/CORS, pagination, and errors before switching. **No real credentials belong in `NUXT_PUBLIC_*` variables.**
+### 6. Run Type Checking
 
-### Legacy mock Admin Preview
+```bash
+npx nuxt typecheck
+```
 
-The old Customer/Admin persona buttons and server-side shortcut are **OFF by default**. For disposable localhost-only QA, set `NUXT_PUBLIC_ENABLE_DEMO_PREVIEW=true` in a private `.env` while running `npm run dev`. Never enable preview on a public server. Normal demo registration/login still works for fictional customers; the backend team must supply genuine admin accounts/auth for production.
+---
 
-### Test and release notes
+## 🎨 UI/UX Design
 
-Run `node --experimental-strip-types scripts/verify-handoff.mjs` and the original scripts, then perform the local Nuxt build and browser checks. Stage 8 was confirmed by the frontend team on its laptop; the handoff modifications need independent local re-verification. `scripts/smoke-stage8.mjs` deliberately changes mock state and requires the explicit local QA preview opt-in. Do not run it against external systems.
+CampusCart follows a clean, accessible, and student-friendly design inspired by the colors of Caraga State University.
 
-The backend team is responsible for PostgreSQL data persistence, security, mock/sample records for its phase, API implementations, and the final production migration. Do not publicly deploy the temporary `server/api/v1` mock handlers as a real commerce service.
+The visual identity uses:
 
-
-## Media and branding handoff (frontend enhancement)
-
-The completed interface remains unchanged by default. For optional product-gallery URLs and category images, update the backend response contract described in [`docs/MEDIA_BRANDING_BACKEND_CONTRACT.md`](docs/MEDIA_BRANDING_BACKEND_CONTRACT.md). Store logo, favicon, hero artwork and shared display copy are centralized in `app/config/storefront.ts`. The local SVG media map stays as an offline fallback; no image database columns, upload endpoints or backend sample data were added. See [`docs/FRONTEND_MEDIA_BRANDING_CHANGELOG.md`](docs/FRONTEND_MEDIA_BRANDING_CHANGELOG.md) and test with `node --experimental-strip-types scripts/verify-media-handoff.mjs`.
-=======
-# campuscart
->>>>>>> origin/main
+- Dark
